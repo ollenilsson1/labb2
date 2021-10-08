@@ -37,17 +37,14 @@ get_header();
 	                        */
 	                        do_action( 'orchid_store_post_navigation' );
 
-                    		// If comments are open or we have at least one comment, load up the comment template.
-						
-
                     	endwhile;
                     	?>
-                    </main><!-- #main.site-main -->
-                </div><!-- #primary.content-area -->
-            </div><!-- .col -->
+                    </main>
+                </div>
+            </div>
            
-        </div><!-- .row -->
-    </div><!-- .os-container -->
-</div><!-- .inner-page-wrap.default-page-wrap.default-page-s1 -->
+        </div>
+    </div>
+</div>
 <?php
 get_footer();
