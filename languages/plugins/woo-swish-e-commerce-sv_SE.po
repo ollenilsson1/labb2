@@ -1,0 +1,662 @@
+# Translation of Plugins - Woo Swish e-commerce - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Woo Swish e-commerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-06 13:10:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Woo Swish e-commerce - Stable (latest release)\n"
+
+#: classes/woo-swish-settings.php:116
+msgid "Swish Authorization Token: "
+msgstr "Swish Authorization Token:"
+
+#: classes/api/woo-swish-api-connection.php:150
+msgid "Error when creating Swish request"
+msgstr "Fel uppstod vid skapandet av Swish-anrop"
+
+#: woo-swish-e-commerce.php:938
+msgid "Payment reference required for refund is missing on order %s"
+msgstr "Betalningsreferens som krävs för återbetalnings saknas för order %s"
+
+#: woo-swish-e-commerce.php:1362
+msgid "Transaction failed to retreive from Swish"
+msgstr "Misslyckades att hämta transaktionen från Swish"
+
+#: woo-swish-e-commerce.php:1357
+msgid "Transaction retreived from Swish"
+msgstr "Transaktion hämtad från Swish"
+
+#: woo-swish-e-commerce.php:1182
+msgid "Refund to customer confirmed - %s ID: %s"
+msgstr "Bekräftad återbetalning till kund - %s ID: %s"
+
+#: classes/woo-swish-settings.php:255
+msgid "Central callback"
+msgstr "Central callback"
+
+#: classes/woo-swish-settings.php:181
+msgid "This is the placeholder for the field where the customer enters their Swish (mobile) number."
+msgstr "Detta är en placeholder för fältet där kunder anger sina Swish/mobil-nummer"
+
+#: classes/woo-swish-settings.php:179
+msgid "Mobile number placeholder"
+msgstr "Placeholder för mobilnummer"
+
+#: woo-swish-e-commerce.php:619
+msgid "Congratulations! You can now be live with Swish payments within minutes. Go to the <a href=\"%s\">configuration page</a> and select BjornTech as Technical Supplier as your connection type."
+msgstr "Grattis! Du kan nu gå live med Swish-betalningar inom kort. Gå till <a href=\"%s\">sidan för inställningar</a> och välj Bjorntech som Teknisk Leverantör som anslutningstyp."
+
+#: classes/woo-swish-settings.php:45
+msgid "Congratulations! You can now be live with Swish payments within minutes. Read the <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\" target=\"_blank\" rel=\"noopener\">instructions</a> on how to set it in your Bank. Then select BjornTech as Technical Supplier as your connection type."
+msgstr "Grattis! Du kan nu gå live med Swish-betalningar inom kort. Läs <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\" target=\"_blank\" rel=\"noopener\">instruktionerna</a> om hur du lägger upp detta hos din bank. Välj sedan Bjorntech som Teknisk Leverantör som anslutningstyp."
+
+#: classes/woo-swish-settings.php:232
+msgid "Plain checkout"
+msgstr "Enkel checkout"
+
+#: classes/woo-swish-helper.php:47
+msgid "Thank you. Your order has been received."
+msgstr "Tack. Vi har tagit emot din beställning."
+
+#: classes/views/html-product-data-swish.php:20
+msgid "Set the limit (1-99) required for purchasing this product via Swish. Leave blank or set to 0 for no limit."
+msgstr "Ange en minimiålder (1-99) som krävs för att köpa denna produkt via Swish. Lämna blankt eller sätt till 0 om inget ålderskrav finns."
+
+#: classes/views/html-product-data-swish.php:17
+msgid "Age limit"
+msgstr "Minimiålder"
+
+#: classes/views/html-product-data-swish.php:17
+msgid "Enter an age between 1 and 99"
+msgstr "Ange en ålder mellan 1 och 99"
+
+#: classes/woo-swish-settings.php:234
+msgid "Legacy checkout"
+msgstr "Äldre checkout"
+
+#: classes/woo-swish-settings.php:194
+msgid "Set if you want to set an age limit to persons that should be allowed to purchase items in your shop, leave blank or set to 0 for no limit."
+msgstr "Ange om du vill sätta en minimiålder för personer som skall kunna handla i din Webshop, lämna blank eller ange 0 om ingen gräns finns."
+
+#: classes/woo-swish-settings.php:192
+msgid "Site age limit"
+msgstr "Ange åldersgräns"
+
+#: classes/woo-swish-settings.php:187
+msgid "If enabled, you can set product age limits on individual products in the new Swish tab on products."
+msgstr "Ange om du vill kunna sätta minimiålder i den nya Swish-fliken på produkter."
+
+#: classes/woo-swish-settings.php:185 classes/woo-swish-settings.php:188
+msgid "Product age limit"
+msgstr "Åldersgräns för produkter"
+
+#: classes/woo-swish-helper.php:45
+msgid "The payer alias in the request is not enroled in swish with the supplied ssn"
+msgstr "Betalarens Swishnummer stämmer inte med personnummer för transaktionen."
+
+#: classes/woo-swish-helper.php:44
+msgid "The Swish-user does not meet the required age limit"
+msgstr "Betalarens ålder är inte tillräcklig för att genomföra transaktionen."
+
+#: classes/woo-swish-helper.php:29
+msgid "Invalid age format"
+msgstr "Ogiltligt format på ålder"
+
+#: woo-swish-e-commerce.php:321
+msgid "Swish is using a callback and the server must be reachable from internet to work."
+msgstr "Swish använder sig av en callback och din server måste därför vara nåbar från internet för att fungera."
+
+#: woo-swish-e-commerce.php:1324
+msgid "Retrieve payment"
+msgstr "Hämta betalning"
+
+#: classes/woo-swish-settings.php:39
+msgid "Read more about the different connection options <a href=\"https://bjorntech.com/sv/swish-handel?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">here</a><br>When using BjornTech as Technical provider you agree to our <a href=\"https://bjorntech.com/privacy-policy?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\" target=\"_blank\" rel=\"noopener\">privacy policy</a>."
+msgstr "Det finns flera sätt att ansluta tillägget till Swish. Läs mer om de olika alternativen <a href=\"https://bjorntech.com/sv/swish-handel?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">här</a><br>När du använder BjornTech som teknisk leverantör godkänner du vår <a href=\"https://bjorntech.com/privacy-policy?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\" target=\"_blank\" rel=\"noopener\">integritetspolicy</a>."
+
+#: woo-swish-e-commerce.php:1304
+msgid "Swish Payment"
+msgstr "Swish-betalning"
+
+#: woo-swish-e-commerce.php:623
+msgid "Congratulations! Your Swish-plugin is now upgraded. You can continue using it as normal. In this version you can use BjornTech as Technical Supplier, read more <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">here</a>"
+msgstr "Grattis! Ditt Swish-tillägg är uppdaterat. Du kan använda det som vanligt. I den här versionen kan du använda BjornTech som teknisk leverantör, läs mer <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">här</a>"
+
+#: woo-swish-e-commerce.php:587
+msgid "Your certificate %s expires %s. Take the opportunity to start using us as your Technical supplier. Read more <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">here</a>"
+msgstr "Ditt certifikat %s slutar fungera %s. Ta tillfället i akt och använd oss som teknisk leverantör istället för att skapa ett nytt certifikat. Läs mer <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">här</a>"
+
+#: woo-swish-e-commerce.php:584
+msgid "Your certificate %s expired %s. Take the opportunity to start using us as your Technical supplier. Read more <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">here</a>"
+msgstr "Ditt certifikat %s slutade fungera %s. Ta tillfället i akt och använd oss som teknisk leverantör istället för att skapa ett nytt certifikat. Läs mer <a href=\"https://bjorntech.com/sv/swish-teknisk-leverantor?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product\">här</a>"
+
+#. Author URI of the plugin
+msgid "https://bjorntech.com/sv/swish-handel?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product"
+msgstr "https://bjorntech.com/sv/swish-handel?utm_source=wp-swish&utm_medium=plugin&utm_campaign=product"
+
+#: classes/woo-swish-settings.php:175
+msgid "This is the label for the field where the customer enters their Swish (mobile) number."
+msgstr "Detta är etiketten för det fält där kunden ska skriva in sitt Swishnummer (mobilnr)."
+
+#: classes/woo-swish-settings.php:173
+msgid "Mobile number label"
+msgstr "Etikett för mobilnummer"
+
+#: woo-swish-e-commerce.php:812
+msgid "You are running Swish e-commerce in test mode, use 4671234768 to test a payment"
+msgstr "Du använder Swish e-commerce i testläge, använd 4671234768 för att genomföra en testbetalning"
+
+#: classes/woo-swish-settings.php:212
+msgid "Select methods"
+msgstr "Välj metoder"
+
+#: classes/woo-swish-settings.php:245
+msgctxt "Order status"
+msgid "Completed"
+msgstr "Färdigbehandlad"
+
+#: classes/woo-swish-settings.php:244
+msgctxt "Order status"
+msgid "Processing"
+msgstr "Behandlas"
+
+#: classes/woo-swish-settings.php:243
+msgid "Let WooCommerce settings decide"
+msgstr "Låt WooCommerce avgöra"
+
+#: classes/woo-swish-settings.php:241
+msgid "Set the preferred order state for an order that is successfully paid."
+msgstr "Ange önskad orderstatus för en betald order."
+
+#: classes/woo-swish-settings.php:238
+msgid "Order status when paid"
+msgstr "Orderstatus efter betalning"
+
+#: classes/woo-swish-settings.php:90
+msgid "Your system is using NSS. The plugin can be configured to work with NSS but this requires deep NSS knowledge. If you do not have this knowledge we do recommend to use our service as Technical supplier."
+msgstr "Ditt system använder NSS. Tillägget kan konfigureras för att fungera med NSS men detta kräver djup kunskap om NSS. Om du inte har denna kunskap rekommenderar vi att du använder vår tjänst som teknisk leverantör istället."
+
+#: woo-swish-e-commerce.php:565
+msgid "Error processing the payment. Contact the shop support"
+msgstr "Fel vid behandning av betalningen. Kontakta butikens support."
+
+#: classes/woo-swish-helper.php:58
+msgid "BankID is not able to authorize the payment"
+msgstr "BankID kan inte auktorisera betalningen"
+
+#: classes/woo-swish-helper.php:57
+msgid "BankID already in use."
+msgstr "BankID används på annan plats."
+
+#: classes/woo-swish-helper.php:56
+msgid "Swish timed out waiting for an answer from the banks. Check with your bank about the status of this payment"
+msgstr "Swish uppnådde en tidsgräns i väntan på svar från bankerna. Kontrollera status på betalningen hos din bank."
+
+#: woo-swish-e-commerce.php:1162
+msgid "Payment"
+msgstr "Betalning"
+
+#: woo-swish-e-commerce.php:1162
+msgid "Test-payment"
+msgstr "Testbetalning"
+
+#: woo-swish-e-commerce.php:331
+msgid "The \"Swish Handel\" number must start with 123, be 10 digits long and not contain any spaces."
+msgstr "Ditt Swish Handel kontonummer måste börja med 123, vara 10 tecken långt och endast innehålla siffror."
+
+#: woo-swish-e-commerce.php:275
+msgid "You are about to disconnect BjornTech as Technical Supplier"
+msgstr "Du slutar nu att använda BjornTech som Teknisk Leverantör"
+
+#: woo-swish-e-commerce.php:274
+msgid "I agree to the BjornTech Privacy Policy"
+msgstr "Jag godkänner BjornTech personuppgiftspolicy"
+
+#: classes/woo-swish-helper.php:28
+msgid "You have to use a \"Swish Handel\" account and select BjornTech as Technical Supplier in your Bank for the service to work"
+msgstr "Du måste använda ett Swish Handel konto och välja BjornTech som din Tekniska Leverantör hos din Bank för att tjänsten skall fungera."
+
+#: classes/woo-swish-settings.php:60
+msgid "The Swish-number to receive payments. The number must be a Swish Handel account. A private Swish-number or a Swish Corporate number does not work."
+msgstr "Swish-numret som du vill använda. Numret måste vara av typen \"Swish Handel. Ett privat Swish-nummer eller ett Swish företag fungerar inte."
+
+#: classes/woo-swish-settings.php:58
+msgid "Your Swish-number"
+msgstr "Ditt Swish-nummer"
+
+#: classes/woo-swish-settings.php:261
+msgid "BjornTech url"
+msgstr "BjornTech url"
+
+#: classes/woo-swish-settings.php:133
+msgid "Connect to BjornTech as Technical Supplier"
+msgstr "Anslut BjornTech som Teknisk Leverantör"
+
+#: classes/woo-swish-settings.php:114
+msgid "Disconnect from BjornTech as Technical Supplier"
+msgstr "Koppla ifrån BjornTech som Teknisk Leverantör"
+
+#: classes/woo-swish-settings.php:111
+msgid "You are using BjornTech as Technical Supplier"
+msgstr "Du använder BjornTech som Teknisk Leverantör"
+
+#: classes/woo-swish-settings.php:48
+msgid "BjornTech as Technical Supplier"
+msgstr "BjornTech som Teknisk Leverantör"
+
+#: classes/api/woo-swish-api-connection.php:199
+msgid "Unknown error occured when communicating with Swish"
+msgstr "Ett okänt fel uppstod vid kommunikation med Swish"
+
+#: classes/woo-swish-settings.php:230
+msgid "Select the type of checkout you want the user to see. The modal checkout does not work with all themes."
+msgstr "Välj vilken typ av kassa du vill visa kunden. Modal checkout fungerar inte i alla teman."
+
+#: classes/woo-swish-settings.php:251
+msgid "Turn on logging for debug purposes."
+msgstr "Slå på loggning för felsökning"
+
+#: classes/woo-swish-settings.php:249
+msgid "Enable debug-log"
+msgstr "Aktivera debug-log"
+
+#: classes/woo-swish-settings.php:233
+msgid "Modal checkout"
+msgstr "Modal checkout"
+
+#: classes/woo-swish-settings.php:227
+msgid "Select type of checkout"
+msgstr "Välj typ av checkout"
+
+#: classes/woo-swish-settings.php:134
+msgid "Connect"
+msgstr "Anslut"
+
+#: classes/woo-swish-settings.php:129
+msgid "The address where to send the confirmation mail address"
+msgstr "Adressen dit vi skickar bekräftelsemailet vid anslutning"
+
+#: classes/woo-swish-settings.php:127
+msgid "Account mail address"
+msgstr "Kontots mailadress"
+
+#: classes/woo-swish-settings.php:115
+msgid "Disconnect"
+msgstr "Koppla bort"
+
+#: classes/woo-swish-settings.php:50
+msgid "Swish Simulator"
+msgstr "Swish Simulator"
+
+#: classes/woo-swish-settings.php:49
+msgid "Local Swish certificate"
+msgstr "Lokalt Swish certifikat"
+
+#: classes/woo-swish-settings.php:47
+msgid "Select connection type"
+msgstr "Välj typ av anslutning"
+
+#: classes/woo-swish-settings.php:42
+msgid "Connection type"
+msgstr "Anslutningstyp"
+
+#: classes/woo-swish-settings.php:38
+msgid "Select your preferred way to connect"
+msgstr "Välj hur du vill ansluta"
+
+#: classes/woo-swish-settings.php:95
+msgid "Enter nickname for the Swish certificate stored in your NSS database"
+msgstr "Ange alias för Swish-certifikatet som du har lagrat i NSS-databasen"
+
+#: classes/woo-swish-settings.php:77
+msgid "Create a directory in a safe place on your server and place the certificate there"
+msgstr "Skapa ett bibliotek på en säker plats i din server och placera certifikatet där"
+
+#: classes/woo-swish-settings.php:71
+msgid "Local Swish Certificate (using %s @ %s)"
+msgstr "Lokalt Swish certifikat (använder %s @ %s)"
+
+#: classes/woo-swish-helper.php:39
+msgid "Another active request already exists for this swish number"
+msgstr "Det finns redan en begäran o betalning gjord för detta swish nummer"
+
+#: woo-swish-e-commerce.php:675
+msgid "The link has now expired, please connect again to get a new link."
+msgstr "Länken har slutat gälla, anslut igen för att få en ny länk."
+
+#: woo-swish-e-commerce.php:671
+msgid "We have sent a mail with the activation link. Click on the link to activate the service."
+msgstr "Vi har skickat ett mail med en aktiveringslänk. Klicka på länken för att aktivera tjänsten."
+
+#: woo-swish-e-commerce.php:668
+msgid "The activation of the account failed"
+msgstr "Aktiveringen av kontot misslyckades."
+
+#: woo-swish-e-commerce.php:426
+msgid "Succcessfully disconnected from the certificate service"
+msgstr "Du är nu bortkopplad från certifikatservicen"
+
+#: woo-swish-e-commerce.php:420
+msgid "Something went wrong when trying to disconnect from the certificate service"
+msgstr "Något gick fel när certifkatsservicen skulle avslutas"
+
+#: woo-swish-e-commerce.php:371 woo-swish-e-commerce.php:389
+msgid "Something went wrong when trying to connect to the BjornTech service."
+msgstr "Något gick fel vid anslutning till BjornTech Certifikat Service"
+
+#: woo-swish-e-commerce.php:336
+msgid "Enter the address to where the verification mail is sent and save the page before connecting."
+msgstr "Välj vilken adress som verifikationsmailet skall skickas till och spara sidan innan du ansluter,"
+
+#: woo-swish-e-commerce.php:326
+msgid "Enter your \"Swish Handel\" number and save the page before connecting."
+msgstr "Ange ditt Swish Handel nummer och spara sidan innan du ansluter"
+
+#: woo-swish-e-commerce.php:316
+msgid "The site must be configured with https to work with Swish."
+msgstr "Sidan måste vara konfigurerad med https för att fungera med Swish"
+
+#: woo-swish-e-commerce.php:118
+msgid "Receive payments using Swish e-commerce."
+msgstr "Ta emot betalningar genom Swish Handel"
+
+#: classes/woo-swish-settings.php:201
+msgid "Enter your Swish-number and press Process. After that you open your Swish-app and authorize the payment that we sent to your app."
+msgstr "Fyll i ditt Swish-nummer och tryck på Slutför köp. Sedan öppnar du din Swish-app och genomför betalningen som vi skickat till appen."
+
+#: classes/woo-swish-settings.php:98 classes/woo-swish-settings.php:101
+msgid "NSS database location"
+msgstr "NSS databasens placering"
+
+#: woo-swish-e-commerce.php:1185
+msgid "Payment confirmed - %s ID: %s"
+msgstr "Betalning bekräftad – %s ID: %s"
+
+#: woo-swish-e-commerce.php:1176
+msgid "Merchant account debited - %s ID: %s"
+msgstr "Handlarens konto debiterat – %s ID: %s"
+
+#: woo-swish-e-commerce.php:1162
+msgid "%s declined by user"
+msgstr "%s nekad av användare"
+
+#: woo-swish-e-commerce.php:701
+msgid "Start Swish app"
+msgstr "Starta Swish-appen"
+
+#: classes/woo-swish-settings.php:223
+msgid "Always show"
+msgstr "Visa alltid"
+
+#: classes/woo-swish-settings.php:222
+msgid "Show when Wordpress detects a mobile device"
+msgstr "Visa när WordPress detekterar en mobil"
+
+#: classes/woo-swish-settings.php:221
+msgid "Never show"
+msgstr "Visa aldrig"
+
+#: classes/woo-swish-settings.php:219
+msgid "The user is presented with a button to click on in order to start the Swish-app if it is present on the device"
+msgstr "Om användaren klickar på \"Starta Swish-appen\" vid betalningstillfället så startas Swish-appen automatiskt"
+
+#: classes/woo-swish-settings.php:216
+msgid "Show \"Start Swish app\" button in these cases"
+msgstr "Visa \"Starta Swish-appen\""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-swish-e-commerce/"
+msgstr "https://wordpress.org/plugins/woo-swish-e-commerce/"
+
+#: classes/woo-swish-helper.php:43
+msgid "Not a valid swish number"
+msgstr "Ogiltigt swish nummer"
+
+#. Author of the plugin
+msgid "BjornTech"
+msgstr "BjornTech"
+
+#. Description of the plugin
+msgid "Integrates <a href=\"https://www.getswish.se/foretag/vara-erbjudanden/#foretag_two\" target=\"_blank\">Swish e-commerce</a> into your WooCommerce installation."
+msgstr "Möjliggör betalning med <a href=\"https://www.getswish.se/foretag/vara-erbjudanden/\" target=\"_blank\">Swish e-commerce</a> i din butik."
+
+#. Plugin Name of the plugin
+msgid "Woo Swish e-commerce"
+msgstr "Woo Swish e-commerce"
+
+#: woo-swish-e-commerce.php:904
+msgid "Payment %s initiated"
+msgstr "Betalning %s påbörjad"
+
+#: woo-swish-e-commerce.php:863
+msgid "Settings"
+msgstr "Inställningar"
+
+#: classes/woo-swish-settings.php:176 woo-swish-e-commerce.php:828
+msgid "Swish number"
+msgstr "Swish-nummer"
+
+#: woo-swish-e-commerce.php:796
+msgid "Swish number can be maximum 15 characters long"
+msgstr "Swish-numret får inte vara längre än 15 siffror"
+
+#: woo-swish-e-commerce.php:792
+msgid "Swish number must be at least 8 characters long"
+msgstr "Swish-numret måste vara minst 8 siffor långt"
+
+#: woo-swish-e-commerce.php:784
+msgid "Swish number missing"
+msgstr "Swishnummer saknas"
+
+#: classes/woo-swish-settings.php:305
+msgid "<strong>%s</strong> is mandatory."
+msgstr "<strong>%s</strong> är obligatorisk"
+
+#: classes/woo-swish-settings.php:302
+msgid "You have missing or incorrect settings. Go to the <a href=\"%s\">settings page</a>."
+msgstr "Du har inkompletta eller felaktiga inställningar. Gå till sidan för <a href=\"%s\">inställningar</a>."
+
+#: classes/woo-swish-settings.php:301
+msgid "WooCommerce Swish e-commerce"
+msgstr "WooCommerce Swish Handel"
+
+#: classes/woo-swish-settings.php:155
+msgid "Text that to be placed on the transaction (max 50 characters including customer number if selected above)."
+msgstr "Text som läggs på transaktionen (max 50 tecken inklusive kundnummer om valt ovan)."
+
+#: classes/woo-swish-settings.php:153
+msgid "Text on transaction"
+msgstr "Meddelandetext"
+
+#: classes/woo-swish-settings.php:149
+msgid "Add the customer number in the text field of the transaction"
+msgstr "Lägg till kundnummer i text-fältet på transaktionen"
+
+#: classes/woo-swish-settings.php:147
+msgid "Add Customer number on transaction"
+msgstr "Lägg till kundnummer på transaktionen"
+
+#: classes/woo-swish-settings.php:144
+msgid "Transaction setup"
+msgstr "Inställningar för transaktioner"
+
+#: classes/woo-swish-settings.php:209
+msgid "If Swish is only available for certain methods, set it up here. Leave empty to enable for all methods."
+msgstr "Om Swish enbart skall vara tillgänglig för vissa fraktmetoder så välj vilka här. Lämna tom för alla."
+
+#: classes/woo-swish-settings.php:204
+msgid "Enable for shipping methods"
+msgstr "Tillgänglig för fraktmetoder"
+
+#: classes/woo-swish-settings.php:200
+msgid "This is the description which the user sees during checkout."
+msgstr "Beskrivningen som kunden ser i kassan"
+
+#: classes/woo-swish-settings.php:198
+msgid "Customer Message"
+msgstr "Kundmeddelande"
+
+#: classes/woo-swish-product-config.php:46 classes/woo-swish-settings.php:170
+#: woo-swish-e-commerce.php:117
+msgid "Swish"
+msgstr "Swish"
+
+#: classes/woo-swish-settings.php:169
+msgid "This is the title which the user sees during checkout."
+msgstr "Rubriken som kunden ser i kassan"
+
+#: classes/woo-swish-settings.php:167
+msgid "Title"
+msgstr "Benämning"
+
+#: classes/woo-swish-settings.php:164
+msgid "Shop setup"
+msgstr "Butikskonfigurering"
+
+#: classes/woo-swish-settings.php:291
+msgid "Merchant Swish number"
+msgstr "Butikens Swish-nummer"
+
+#: classes/woo-swish-settings.php:82
+msgid "Password for the private key, leave blank if no password"
+msgstr "Lösenord för den privata nyckeln, lämna blankt om inget lösenord."
+
+#: classes/woo-swish-settings.php:80
+msgid "Private Key Password"
+msgstr "Privat nyckel lösenord"
+
+#: classes/woo-swish-settings.php:74 classes/woo-swish-settings.php:93
+#: classes/woo-swish-settings.php:290
+msgid "Merchant Certificate"
+msgstr "Handlarens Certifikat"
+
+#: classes/woo-swish-settings.php:33
+msgid "Enable Swish Payments"
+msgstr "Aktivera Swish Betalningar"
+
+#: classes/woo-swish-settings.php:31
+msgid "Enable"
+msgstr "Aktivera"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: woo-swish-e-commerce.php:1405
+msgid "Other locations"
+msgstr "Andra platser"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: woo-swish-e-commerce.php:1405
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: woo-swish-e-commerce.php:1402
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#. Translators: %1$s shipping method name.
+#: woo-swish-e-commerce.php:1387
+msgid "Any &quot;%1$s&quot; method"
+msgstr "Vilken ”%1$s”-metod som helst"
+
+#: classes/woo-swish-helper.php:60
+msgid "Unknown error received from Swish"
+msgstr "Okänt fel från Swish"
+
+#: classes/woo-swish-helper.php:55
+msgid "Original payment not found or original payment is more than than 13 months old"
+msgstr "Ursprungsbetalningen hittades ej eller är mer än 13 månader gammal"
+
+#: classes/woo-swish-helper.php:54
+msgid "Check the payment with your Bank"
+msgstr "Kontrollera betalningen med din Bank"
+
+#: classes/woo-swish-helper.php:53
+msgid "Swish timed out before the payment was started"
+msgstr "Swish uppnådde en tidsgräns innan betalningen startade"
+
+#: classes/woo-swish-helper.php:52
+msgid "Bank system processing error"
+msgstr "Bearbetningsfel i bankens system"
+
+#: classes/woo-swish-helper.php:51
+msgid "Payer cancelled BankId signing"
+msgstr "Bank-id signering avbruten"
+
+#: classes/woo-swish-helper.php:50
+msgid "Transaction declined"
+msgstr "Transaktionen avvisad"
+
+#: classes/woo-swish-helper.php:49
+msgid "An error has occured"
+msgstr "Ett fel har inträffat"
+
+#: classes/woo-swish-helper.php:48
+msgid "Payment declined"
+msgstr "Betalningen avvisades"
+
+#: classes/woo-swish-helper.php:46 woo-swish-e-commerce.php:253
+#: woo-swish-e-commerce.php:459 woo-swish-e-commerce.php:726
+#: woo-swish-e-commerce.php:746 woo-swish-e-commerce.php:766
+msgid "Start your Swish-App and authorize the payment"
+msgstr "Starta din Swish-app och godkänn betalningen"
+
+#: classes/woo-swish-helper.php:42
+msgid "Payee not Enrolled"
+msgstr "Mottagaren finns ej i systemet"
+
+#: classes/woo-swish-helper.php:41
+msgid "Counterpart is not activated"
+msgstr "Motparten är inte aktiverad"
+
+#: classes/woo-swish-helper.php:40
+msgid "Payer not Enrolled"
+msgstr "Betalaren ej registrerad"
+
+#: classes/woo-swish-helper.php:38
+msgid "Wrong formatted message"
+msgstr "Felaktigt formaterat meddelande"
+
+#: classes/woo-swish-helper.php:37
+msgid "Invalid or missing currency"
+msgstr "Felaktig eller saknad valutakod"
+
+#: classes/woo-swish-helper.php:36
+msgid "Amount value is too large"
+msgstr "Beloppet är för stort"
+
+#: classes/woo-swish-helper.php:35
+msgid "Amount value is too low"
+msgstr "Beloppet är för litet"
+
+#: classes/woo-swish-helper.php:34
+msgid "Amount value is missing or not a valid number"
+msgstr "Belopp saknas eller är inte angivet som ett giltigt talvärde"
+
+#: classes/woo-swish-helper.php:33
+msgid "Payee alias is missing or empty"
+msgstr "Mottagarnummer saknas eller är tomt"
+
+#: classes/woo-swish-helper.php:32
+msgid "Payer alias is invalid"
+msgstr "Butikens Swish-id är ogiltligt"
+
+#: classes/woo-swish-helper.php:31
+msgid "Callback URL is missing or does not use Https"
+msgstr "Callback URL saknas eller använder inte Https"
+
+#: classes/woo-swish-helper.php:30
+msgid "PayeePaymentReference is invalid"
+msgstr "Mottagarens betalningsreferens är ogiltlig"
+
+#: classes/woo-swish-exception.php:91
+msgid "An error occured. For more information check out the <strong>%s</strong> logs inside <strong>WooCommerce -> System Status -> Logs</strong>."
+msgstr "Ett problem har inträffat. För mer information se <strong>%s</strong> loggen under <strong>WooCommerce -> Status -> Loggar</strong>."
+
+#: classes/api/woo-swish-api-functions.php:57
+msgid "Customer number %s"
+msgstr "Kundnummer %s"
